@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		My Music Place...</title>
+		<link rel="stylesheet" href="Stylem.css">
+	
+</head>
+<body>
+	<header>
+		<div class="new">
+		<h5>MUSIC MANTRA</h5>
+		<div class="navbar">
+<img src="img/3.jpg"></div>
+<ul>
+	<li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+	<li><a href="#">Product</a></li>
+    <li><a href="#">CotactUs</a></li>
+</ul>
+<div class="mus">
+	<h4>Lets<br> the<br> music play...</h4>
+	<p>click here to listen...</p><div>
+	<div class="listen">
+		<img src="img/55.jpg" id="icon">
+	</div>
+</div>
+<audio id="mysong">
+	<source src="img/song.mp3" type="audio/mp3">
+</audio>
+<script >
+	var mysong=document.getElementById("mysong");
+	var icon=document.getElementById("icon");
+icon.onclick=function(){
+	if(mysong.paused){
+		mysong.play();
+		icon.src="img/pause.png";}
+		else{
+			mysong.pause();
+			icon.src="img/55.jpg";
+		}
+
+}
+	
+</script>
+
+
+</header>
+</body>
+</html>
