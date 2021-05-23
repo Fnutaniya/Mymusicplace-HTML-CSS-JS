@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding:0; 
+	font-family: 'times roman';
+}
+.new{
+	background-image:url(img/99.jpg); 
+	height: 100vh;
+	width: 100%;
+
+}
+h5{
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top:20px;
+}
+.navbar img{
+	height: 100px;
+	width: 100px;
+}
+ ul{
+	float:right;
+	word-spacing: 30px;
+	margin-right: 50px;
+	font-size: 50px;
+	color: white;
+
+	
+}
+ul li{
+display: inline;
+position: relative;
+top: 5px;
+
+}
+ul li a{
+	color: white;
+	font-style: italic;
+}
+.mus{
+	font-size: 70px;
+	color: white;
+	float: left;
+}
+.listen img{
+	position: relative;
+top: 10px;
+left: 60px;
+
+	height: 40px;
+
+	width: 40px;
+
+}
+
+	 p{
+	font-style: italic;
+	font-size: 50px;
+	color: black;
+}
+
+	

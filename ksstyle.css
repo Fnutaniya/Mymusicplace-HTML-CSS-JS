@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding:0; 
+	font-family: 'times roman';
+
+}
+
+
+h5{
+    
+    background-color: rgb(0, 255, 242);
+    text-align:center;
+     text-shadow: 3px 3px rgb(255, 0, 221);
+    font-size: 50px;
+    padding: 10px;
+
+    
+}
+.kschild3 img{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+    
+}
+.kschild3:hover{
+transform: scale(1.1);
+z-index: 1;
+
+}
+.kschild4 table{
+    width: 300px;
+    height:300px;
+    
+}
+  td  { 
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+    table{
+        border: 1px solid black;
+        border-spacing: 10px;
+        border-collapse: collapse;
+        position: relative;
+        bottom: 250px;
+        left: 400px;
+        
+       
+        
+       
+    }
+    caption{
+        caption-side: top;
+        font-style: oblique;
+        font-size: larger;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+
+
+
+
