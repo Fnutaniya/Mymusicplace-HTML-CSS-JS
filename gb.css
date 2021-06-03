@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding:0; 
+	font-family: 'times roman';
+}
+body{
+    background-image:url(img/8.png) ;
+    background-size:100%;
+}
+h5{
+    
+    background-color: rgb(0, 255, 242);
+    text-align:center;
+     text-shadow: 3px 3px rgb(255, 0, 221);
+    font-size: 50px;
+    padding: 10px;
+
+    
+}
+.gbchild3 img{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+    
+}
+.gbchild3:hover{
+transform: scale(1.1);
+z-index: 1;
+}
+
+button:hover{
+    background-color:silver;  
+}
+   .gbsongs1 button{
+       padding:5px;
+       margin:5px 5px 10px 50px;
+       border: 1px solid black;
+       font-size: 30px;
+       border-radius: 5px;
+       
+   }
+   .gbsongs1 img{
+       width: 30px;
+       height: 30px;
+       display:inline-block;
+    
+}
+.gbsongs1 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+
+}
+.gbsongs2 button{
+    padding:5px;
+    margin:5px 5px 10px 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 5px; 
+}
+.gbsongs2 img{
+    width: 30px;
+    height: 30px;
+    display:inline-block;
+}
+.gbsongs2 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
+.gbsongs3 button{
+    margin:5px 5px 5px 50px;
+    border: 1px solid black;
+    padding:5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.gbsongs3 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.gbsongs3 img:hover{
+    transform: scale(1.1);
+   z-index: 1.3;
+}
+.gbsongs4 button{
+    margin:5px 5px 5px 50px;
+    border: 1px solid black;
+    padding:5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.gbsongs4 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.gbsongs4 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
+.gbsongs5 button{
+    margin:5px 5px 5px 50px;
+    border: 1px solid black;
+    padding:5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.gbsongs5 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.gbsongs5 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
+

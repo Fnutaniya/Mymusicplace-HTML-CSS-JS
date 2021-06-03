@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding:0; 
+	font-family: 'times roman';
+}
+body{
+    background-image:url(img/8.png) ;
+    background-size:100%;
+}
+h5{
+    
+    background-color: rgb(0, 255, 242);
+    text-align:center;
+     text-shadow: 3px 3px rgb(255, 0, 221);
+    font-size: 50px;
+    padding: 10px;
+}
+.lg3{
+ width: 300px;
+}
+.lg3 img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin:10px  10px 10px 100px;
+    padding: 2px;
+    float: left;
+}
+.lg4{
+    float: right;
+    color:white;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+button:hover{
+    background-color:silver;  
+}
+   .lgsongs1 button{
+       padding:5px;
+       margin: 260px 5px 10px 50px;
+       border: 1px solid black;
+       font-size: 30px;
+       border-radius: 5px;
+       
+       
+   }
+   .lgsongs1 img{
+       width: 30px;
+       height: 30px;
+       display:inline-block;
+    
+}
+.lgsongs1 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
