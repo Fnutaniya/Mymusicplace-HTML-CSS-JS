@@ -14,3 +14,19 @@ h3{
     font-size: 30px;
     font-style: italic;
 }
+.con4{
+    
+    display:flex;
+    flex-direction:row;
+}
+.con5 {
+    width: 500px;
+    height: 150x;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid burlywood;
+    
+}
+.con5:hover{
+    transform: scale(1.2);
+    }

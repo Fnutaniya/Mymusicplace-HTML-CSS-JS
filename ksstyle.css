@@ -2,10 +2,11 @@
 	margin: 0;
 	padding:0; 
 	font-family: 'times roman';
-
 }
-
-
+body{
+    background-image:url(img/8.png) ;
+    background-size:100%;
+}
 h5{
     
     background-color: rgb(0, 255, 242);
@@ -30,39 +31,79 @@ h5{
 transform: scale(1.1);
 z-index: 1;
 
-}
-.kschild4 table{
-    width: 300px;
-    height:300px;
+
     
 }
-  td  { 
+   .kssongs1 button{
+       padding:5px;
+       margin:5px 5px 10px 50px;
+       border: 1px solid black;
+       font-size: 30px;
+       border-radius: 5px;
+       
+   }
+   .kssongs1 img{
+       width: 30px;
+       height: 30px;
+       display:inline-block;
+    
+}
+ button:hover{
+    background-color:silver;
+}
+.kssongs1 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
+.kssongs2 img{
+    width: 30px;
+    height: 30px;
+    display:inline-block;
+}
+.kssongs2 button{
+    padding:5px;
+    margin:5px 5px 10px 50px;
     border: 1px solid black;
-    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px; 
+}
+.kssongs2 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+}
+.kssongs3 button{
+    margin:5px 5px 5px 50px;
+    border: 1px solid black;
+    padding:5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+ .kssongs3 img:hover{
+     transform: scale(1.1);
+    z-index: 1.3;
+}
+.kssongs3 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.kssongs4 button{
+    margin:5px 5px 5px 50px;
+    border: 1px solid black;
+    padding:5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.kssongs4 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.kssongs4 img:hover{
+    transform: scale(1.1);
+    z-index: 1.3;
+
 
 
 }
-    table{
-        border: 1px solid black;
-        border-spacing: 10px;
-        border-collapse: collapse;
-        position: relative;
-        bottom: 250px;
-        left: 400px;
-        
-       
-        
-       
-    }
-    caption{
-        caption-side: top;
-        font-style: oblique;
-        font-size: larger;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        font-weight: bolder;
-    }
-
-
-
 

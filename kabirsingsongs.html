@@ -6,31 +6,50 @@
 </head>
 <body>
     
-    <div class="kscon1">
-            <div class="kschild1">
+    <div class="kscon1" >
+            <div class="kschild1" id="now">
             <h5>Hindi gaane</h5>
         </div>
-            <div class="kschild3">
-            <img src="img/2.jpg">
+            <div class="kschild3" >
+            <img id="now1" src="img/2.jpg">
         </div>
-
-        </div class="kschild4">
-          <table>
-              <caption>Kabir Singh songs...</caption>
-              <tr>
-                  <td>Bekhayali </td>
-                  <td>Tujhe kitna chahne lage hum</td>
-                  <td>Tera ban jaunga </td>
-                  
-              </tr>
-              <tr>
-              <td>Mera pahla pahla pyar</td>
-                  <td> kaise hua </td>
-              </tr>
-          </table>        
-        </div>  
+<div class="main">
+       <div class="kssongs1">
+        <button>Bekhayali </button>
+        <img  src="img/playb.jpg" onclick="document.getElementById('ksaudio1').play();">
+        <audio id="ksaudio1">
+            <source src="audio/Bekhayali - Kabir Singh 320 Kbps.mp3" type="audio/mp3">
+        </audio>
+       </div>
+       <div class="kssongs2">
+        <button>Tujhe kitna chahne lage hum </button>
+        <img src="img/playb.jpg" onclick="document.getElementById('ksaudio2').play();">
+        <audio id="ksaudio2">
+            <source src="audio/Tujhe Kitna Chahne Lage - Kabir Singh 320 Kbps.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <div class="kssongs3">
+        <button>Tera ban jaunga </button>
+        <img src="img/playb.jpg " onclick="document.getElementById('ksaudio3').play();">
+        <audio id="ksaudio3">
+            <source src="audio/Tera Ban Jaunga - Kabir Singh 320 Kbps.mp3" type="audio/mp3">
+        </audio>
+       </div>
+       <div class="kssongs4">
+        <button>Ye aaina </button>
+        <img src="img/playb.jpg" onclick="document.getElementById('ksaudio4').play();" >
+        <audio id="ksaudio4" >
+            <source src="audio/Yeh Aaina - Kabir Singh 320 Kbps.mp3" type="audio/mp3">
+        </audio>
+       </div>
+      
+      
+</div>
     </div>
-    
-    
+
+<script src="kssong.js">
+
+</script>
+
 </body>
 </html>
